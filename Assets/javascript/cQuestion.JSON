@@ -1,0 +1,17 @@
+[
+  {
+    "cloze": "Answer 1",
+    "fulltext": "Answer 1 is the answer for question 1",
+    "partial": "[...] is the answer for question 1"
+  },
+  {
+    "cloze": "Answer 2",
+    "fulltext": "Answer 2 is the answer for question 2",
+    "partial": "[...] is the answer for question 2"
+  },
+  {
+    "cloze": "Answer 3",
+    "fulltext": "Answer 3 is the answer for question 3",
+    "partial": "[...] is the answer for question 3"
+  }
+]

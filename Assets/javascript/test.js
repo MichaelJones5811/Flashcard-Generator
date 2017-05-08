@@ -1,29 +1,11 @@
-//var file = require("./file.json");
-var file = require("./file.js");
+var file2 = require("./file2.JSON");
+
 
 function test(){
-	console.log(file.basicCardArray[0]);
-
+	for(var i = 0; i< file2.basicCardArray.length; i++){
+	console.log(file2.basicCardArray[i]);
+}
 }
 
 test();
 // this is my data object
-var dataObject = {
-					"basicCardArray":
-					["test1","test2"],
-					"clozeCardArray":[]
-
-				};
-
-module.exports = dataObject;
-
-//Here is my driver
-//var file = require("./file.json"); doesn't work
-var file = require("./file.js");
-
-function test(){
-	console.log(file.basicCardArray[0]);
-
-}
-
-test();
